@@ -11,9 +11,9 @@ public class SFXManager : MonoBehaviour
     public AudioClip BgMusicGameplay;
     public AudioClip BgMusicTitleScreen;
 
-    private AudioSource SFXaudioSource;
+    public AudioSource SFXaudioSource;
 
-    private AudioSource BgMusicAudioSource;
+    public AudioSource BgMusicAudioSource;
 
     public void Awake()
     {
